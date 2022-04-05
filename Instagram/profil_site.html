@@ -1,294 +1,306 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="profi.css">
-    <title>Document</title>
-</head>
 
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="George W. Park">
+    <meta name="description" content="This project demonstrates how CSS grid (with flexbox and float fallback) can be used to re-create the layout of an Instagram profile page.">
+
+    <!-- Title -->
+    <title>Instagram Profile Layout</title>
+
+    <!-- External CSS Files -->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+
+</head>
 <body>
-    
+
     <header>
 
         <div class="container">
-    
+
             <div class="profile">
-    
+
                 <div class="profile-image">
-    
-                    <img src="https://images.unsplash.com/photo-1513721032312-6a18a42c8763?w=152&h=152&fit=crop&crop=faces" alt="">
-    
+
+                    <img src="https://cdna.artstation.com/p/assets/images/images/030/765/598/large/will-gwasera-monkey-kingdiscord.jpg?1601575279" alt="" height="250px" width="250px">
+
                 </div>
-    
+
                 <div class="profile-user-settings">
-    
-                    <h1 class="profile-user-name">King_Broly</h1>
-    
-                    <button class="btn profile-edit-btn">Following</button>
-    
+
+                    <h1 class="profile-user-name">Weeb_Page</h1>
+
+                    <button class="btn profile-edit-btn">following</button>
+
                     <button class="btn profile-settings-btn" aria-label="profile settings"><i class="fas fa-cog" aria-hidden="true"></i></button>
-    
+
                 </div>
-    
+
                 <div class="profile-stats">
-    
+
                     <ul>
                         <li><span class="profile-stat-count">164</span> posts</li>
-                        <li><span class="profile-stat-count">188</span> followers</li>
-                        <li><span class="profile-stat-count">206</span> following</li>
+                        <li><span class="profile-stat-count">69.6k</span> followers</li>
+                        <li><span class="profile-stat-count">1004</span> following</li>
                     </ul>
-    
+
                 </div>
-    
+
                 <div class="profile-bio">
-    
-                    <p><span class="profile-real-name">Jane Doe</span> Lorem ipsum dolor sit, amet consectetur adipisicing elit 📷✈️🏕️</p>
-    
+
+                    <p><span class="profile-real-name">Miyamura</span> <p>Confirmed & Approved Weeb</p> 
+                        <p>He/Him </p>
+                            <p> Confirmed introvert who doesn't go out!</p></p>
+                            <p>Reposting merchant</p>
+
                 </div>
-    
+
             </div>
             <!-- End of profile section -->
-    
+
         </div>
         <!-- End of container -->
-    
+
     </header>
-    
+
     <main>
-    
+
         <div class="container">
-    
+
             <div class="gallery">
-    
+
                 <div class="gallery-item" tabindex="0">
-    
-                    <img src="https://images.unsplash.com/photo-1511765224389-37f0e77cf0eb?w=500&h=500&fit=crop" class="gallery-image" alt="">
-    
+
+                    <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9c51682b-6f47-4524-91b6-c5c0e665fff9/de1c2ui-e0974278-cdc2-40b1-9284-812e7a76127f.png/v1/fill/w_1280,h_1687,q_80,strp/jin_mo_ri___the_monkey_king_by_k9k992_de1c2ui-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTY4NyIsInBhdGgiOiJcL2ZcLzljNTE2ODJiLTZmNDctNDUyNC05MWI2LWM1YzBlNjY1ZmZmOVwvZGUxYzJ1aS1lMDk3NDI3OC1jZGMyLTQwYjEtOTI4NC04MTJlN2E3NjEyN2YucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.a7IiZQgAIZAsqpk-g8NF28o56TPD2b8-zhnEFRbgi0o" class="gallery-image" alt="">
+
                     <div class="gallery-item-info">
-    
+
                         <ul>
                             <li class="gallery-item-likes"><span class="visually-hidden">Likes:</span><i class="fas fa-heart" aria-hidden="true"></i> 56</li>
                             <li class="gallery-item-comments"><span class="visually-hidden">Comments:</span><i class="fas fa-comment" aria-hidden="true"></i> 2</li>
                         </ul>
-    
+
                     </div>
-    
+
                 </div>
-    
+
                 <div class="gallery-item" tabindex="0">
-    
-                    <img src="https://images.unsplash.com/photo-1497445462247-4330a224fdb1?w=500&h=500&fit=crop" class="gallery-image" alt="">
-    
+
+                    <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/84d79f09-d816-4b84-b462-d2799ccbf229/de1ioag-ad2e582c-8eaf-4e03-bd76-137f5dc8b838.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzg0ZDc5ZjA5LWQ4MTYtNGI4NC1iNDYyLWQyNzk5Y2NiZjIyOVwvZGUxaW9hZy1hZDJlNTgyYy04ZWFmLTRlMDMtYmQ3Ni0xMzdmNWRjOGI4MzgucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Ps9IgGOdeKh_zHdiysyfGpxfbVsGEVRVianePLtCH14" class="gallery-image" alt="">
+
                     <div class="gallery-item-info">
-    
+
                         <ul>
                             <li class="gallery-item-likes"><span class="visually-hidden">Likes:</span><i class="fas fa-heart" aria-hidden="true"></i> 89</li>
                             <li class="gallery-item-comments"><span class="visually-hidden">Comments:</span><i class="fas fa-comment" aria-hidden="true"></i> 5</li>
                         </ul>
-    
+
                     </div>
-    
+
                 </div>
-    
+
                 <div class="gallery-item" tabindex="0">
-    
-                    <img src="https://images.unsplash.com/photo-1426604966848-d7adac402bff?w=500&h=500&fit=crop" class="gallery-image" alt="">
-    
+
+                    <img src="https://wallpapercave.com/wp/wp4765413.jpg" class="gallery-image" alt="">
+
                     <div class="gallery-item-type">
-    
+
                         <span class="visually-hidden">Gallery</span><i class="fas fa-clone" aria-hidden="true"></i>
-    
+
                     </div>
-    
+
                     <div class="gallery-item-info">
-    
+
                         <ul>
                             <li class="gallery-item-likes"><span class="visually-hidden">Likes:</span><i class="fas fa-heart" aria-hidden="true"></i> 42</li>
                             <li class="gallery-item-comments"><span class="visually-hidden">Comments:</span><i class="fas fa-comment" aria-hidden="true"></i> 1</li>
                         </ul>
-    
+
                     </div>
-    
+
                 </div>
-    
+
                 <div class="gallery-item" tabindex="0">
-    
-                    <img src="https://images.unsplash.com/photo-1502630859934-b3b41d18206c?w=500&h=500&fit=crop" class="gallery-image" alt="">
-    
+
+                    <img src="https://cdn.wallpapersafari.com/61/73/IZ4B8N.png" class="gallery-image" alt="">
+
                     <div class="gallery-item-type">
-    
+
                         <span class="visually-hidden">Video</span><i class="fas fa-video" aria-hidden="true"></i>
-    
+
                     </div>
-    
+
                     <div class="gallery-item-info">
-    
+
                         <ul>
                             <li class="gallery-item-likes"><span class="visually-hidden">Likes:</span><i class="fas fa-heart" aria-hidden="true"></i> 38</li>
                             <li class="gallery-item-comments"><span class="visually-hidden">Comments:</span><i class="fas fa-comment" aria-hidden="true"></i> 0</li>
                         </ul>
-    
+
                     </div>
-    
+
                 </div>
-    
+
                 <div class="gallery-item" tabindex="0">
-    
-                    <img src="https://images.unsplash.com/photo-1498471731312-b6d2b8280c61?w=500&h=500&fit=crop" class="gallery-image" alt="">
-    
+
+                    <img src="https://i.pinimg.com/originals/3f/03/d3/3f03d3bf2e8ea820fd9efae470e39048.jpg" class="gallery-image" alt="">
+
                     <div class="gallery-item-type">
-    
+
                         <span class="visually-hidden">Gallery</span><i class="fas fa-clone" aria-hidden="true"></i>
-    
+
                     </div>
-    
+
                     <div class="gallery-item-info">
-    
+
                         <ul>
                             <li class="gallery-item-likes"><span class="visually-hidden">Likes:</span><i class="fas fa-heart" aria-hidden="true"></i> 47</li>
                             <li class="gallery-item-comments"><span class="visually-hidden">Comments:</span><i class="fas fa-comment" aria-hidden="true"></i> 1</li>
                         </ul>
-    
+
                     </div>
-    
+
                 </div>
-    
+
                 <div class="gallery-item" tabindex="0">
-    
-                    <img src="https://images.unsplash.com/photo-1515023115689-589c33041d3c?w=500&h=500&fit=crop" class="gallery-image" alt="">
-    
+
+                    <img src="https://wallpaperaccess.com/full/4129363.jpg" class="gallery-image" alt="">
+
                     <div class="gallery-item-info">
-    
+
                         <ul>
                             <li class="gallery-item-likes"><span class="visually-hidden">Likes:</span><i class="fas fa-heart" aria-hidden="true"></i> 94</li>
                             <li class="gallery-item-comments"><span class="visually-hidden">Comments:</span><i class="fas fa-comment" aria-hidden="true"></i> 3</li>
                         </ul>
-    
+
                     </div>
-    
+
                 </div>
-    
+
                 <div class="gallery-item" tabindex="0">
-    
-                    <img src="https://images.unsplash.com/photo-1504214208698-ea1916a2195a?w=500&h=500&fit=crop" class="gallery-image" alt="">
-    
+
+                    <img src="https://i.pinimg.com/originals/3b/ae/82/3bae821fe10674e20bf4428ba5571057.jpg" class="gallery-image" alt="">
+
                     <div class="gallery-item-type">
-    
+
                         <span class="visually-hidden">Gallery</span><i class="fas fa-clone" aria-hidden="true"></i>
-    
+
                     </div>
-    
+
                     <div class="gallery-item-info">
-    
+
                         <ul>
                             <li class="gallery-item-likes"><span class="visually-hidden">Likes:</span><i class="fas fa-heart" aria-hidden="true"></i> 52</li>
                             <li class="gallery-item-comments"><span class="visually-hidden">Comments:</span><i class="fas fa-comment" aria-hidden="true"></i> 4</li>
                         </ul>
-    
+
                     </div>
-    
+
                 </div>
-    
+
                 <div class="gallery-item" tabindex="0">
-    
-                    <img src="https://images.unsplash.com/photo-1515814472071-4d632dbc5d4a?w=500&h=500&fit=crop" class="gallery-image" alt="">
-    
+
+                    <img src="https://pbs.twimg.com/media/EcHfTTIUYAA5-ri.jpg" class="gallery-image" alt="">
+
                     <div class="gallery-item-info">
-    
+
                         <ul>
                             <li class="gallery-item-likes"><span class="visually-hidden">Likes:</span><i class="fas fa-heart" aria-hidden="true"></i> 66</li>
                             <li class="gallery-item-comments"><span class="visually-hidden">Comments:</span><i class="fas fa-comment" aria-hidden="true"></i> 2</li>
                         </ul>
-    
+
                     </div>
-    
+
                 </div>
-    
+
                 <div class="gallery-item" tabindex="0">
-    
-                    <img src="https://images.unsplash.com/photo-1511407397940-d57f68e81203?w=500&h=500&fit=crop" class="gallery-image" alt="">
-    
+
+                    <img src="https://pbs.twimg.com/media/EgKiaZrUMAE0gNx.jpg" class="gallery-image" alt="">
+
                     <div class="gallery-item-type">
-    
+
                         <span class="visually-hidden">Gallery</span><i class="fas fa-clone" aria-hidden="true"></i>
-    
+
                     </div>
-    
+
                     <div class="gallery-item-info">
-    
+
                         <ul>
                             <li class="gallery-item-likes"><span class="visually-hidden">Likes:</span><i class="fas fa-heart" aria-hidden="true"></i> 45</li>
                             <li class="gallery-item-comments"><span class="visually-hidden">Comments:</span><i class="fas fa-comment" aria-hidden="true"></i> 0</li>
                         </ul>
-    
+
                     </div>
-    
+
                 </div>
-    
+
                 <div class="gallery-item" tabindex="0">
-    
+
                     <img src="https://images.unsplash.com/photo-1518481612222-68bbe828ecd1?w=500&h=500&fit=crop" class="gallery-image" alt="">
-    
+
                     <div class="gallery-item-info">
-    
+
                         <ul>
                             <li class="gallery-item-likes"><span class="visually-hidden">Likes:</span><i class="fas fa-heart" aria-hidden="true"></i> 34</li>
                             <li class="gallery-item-comments"><span class="visually-hidden">Comments:</span><i class="fas fa-comment" aria-hidden="true"></i> 1</li>
                         </ul>
-    
+
                     </div>
-    
+
                 </div>
-    
+
                 <div class="gallery-item" tabindex="0">
-    
+
                     <img src="https://images.unsplash.com/photo-1505058707965-09a4469a87e4?w=500&h=500&fit=crop" class="gallery-image" alt="">
-    
+
                     <div class="gallery-item-info">
-    
+
                         <ul>
                             <li class="gallery-item-likes"><span class="visually-hidden">Likes:</span><i class="fas fa-heart" aria-hidden="true"></i> 41</li>
                             <li class="gallery-item-comments"><span class="visually-hidden">Comments:</span><i class="fas fa-comment" aria-hidden="true"></i> 0</li>
                         </ul>
-    
+
                     </div>
-    
+
                 </div>
-    
+
                 <div class="gallery-item" tabindex="0">
-    
+
                     <img src="https://images.unsplash.com/photo-1423012373122-fff0a5d28cc9?w=500&h=500&fit=crop" class="gallery-image" alt="">
-    
+
                     <div class="gallery-item-type">
-    
+
                         <span class="visually-hidden">Video</span><i class="fas fa-video" aria-hidden="true"></i>
-    
+
                     </div>
-    
+
                     <div class="gallery-item-info">
-    
+
                         <ul>
                             <li class="gallery-item-likes"><span class="visually-hidden">Likes:</span><i class="fas fa-heart" aria-hidden="true"></i> 30</li>
                             <li class="gallery-item-comments"><span class="visually-hidden">Comments:</span><i class="fas fa-comment" aria-hidden="true"></i> 2</li>
                         </ul>
-    
+
                     </div>
-    
+
                 </div>
-    
+
             </div>
             <!-- End of gallery -->
-    
+
             <div class="loader"></div>
-    
+
         </div>
         <!-- End of container -->
-    
+
     </main>
-
-
 
 </body>
 </html>
